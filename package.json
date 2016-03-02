@@ -1,19 +1,20 @@
 {
-  "name": "generic-playground",
+  "name": "react-playground",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "budo index.js --live -t envify | bistre"
+    "start": "budo index.js --live"
   },
   "author": "Victor Powell <vicapow@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "bistre": "^1.0.1",
-    "budo": "^4.1.0",
+    "budo": "^8.0.4",
     "document": "^0.4.7",
-    "envify": "^3.4.0",
-    "global": "^4.3.0"
+    "global": "^4.3.0",
+    "r-dom": "^2.1.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   }
 }
